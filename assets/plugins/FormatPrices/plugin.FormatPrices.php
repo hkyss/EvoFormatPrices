@@ -1,20 +1,4 @@
 <?php
-/**
- * Format prices
- *
- * plugin
- *
- * @category        plugin
- * @version         0.1
- * @author          hkyss
- * @documentation   empty
- * @lastupdate      18.05.2021
- * @internal    	@modx_category Resources
- * @internal    	@events OnDocFormSave
- * @internal    	@properties &tvs=Наименования TV-параметров;string;price &templates=Шаблоны;string;9
- *
- */
-
 if(!defined('MODX_BASE_PATH')) die('What are you doing? Get out of here!');
 
 if(!function_exists('format')) {
